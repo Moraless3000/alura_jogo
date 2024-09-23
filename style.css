@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+#jogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#cenario {
+    margin-bottom: 20px;
+}
+
+#imagem-fundo {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+}
+
+#texto-historia {
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+#opcoes button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#opcoes button:hover {
+    background-color: #45a049;
+}
